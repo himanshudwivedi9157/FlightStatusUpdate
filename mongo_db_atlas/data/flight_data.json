@@ -1,0 +1,44 @@
+[
+  {
+      "_id": "flight1",
+      "flight_number": "AI202",
+      "status": "On Time",
+      "gate": "A1"
+  },
+  {
+      "_id": "flight2",
+      "flight_number": "AI203",
+      "status": "Delayed",
+      "gate": "B2"
+  },
+  {
+    "_id": "flight3",
+    "flight_number": "AI204",
+    "status": "Cencel",
+    "gate": "C3"
+},
+{
+    "_id": "flight4",
+    "flight_number": "AI205",
+    "status": "On Time",
+    "gate": "D4"
+},
+{
+    "_id": "flight5",
+    "flight_number": "AI206",
+    "status": "Delayed",
+    "gate": "E5"
+},
+{
+    "_id": "flight6",
+    "flight_number": "AI207",
+    "status": "Cencel",
+    "gate": "F6"
+},
+{
+    "_id": "flight7",
+    "flight_number": "AI208",
+    "status": "On Time",
+    "gate": "G7"
+}
+]

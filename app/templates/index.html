@@ -1,0 +1,34 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Flight Status</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+     <script src="{{ url_for('static', filename='scripts/main.js') }}" defer></script>
+ </head>
+ <body>
+     <header>
+         <h1>Flight Status</h1>
+     </header>
+     <div class="container">
+         <h2>Welcome to Flight Status Dashboard</h2>
+         <p>Check the status of your flight here.</p>
+         <button id="check-status">Check Flight Status</button>
+         <table id="flight-status-table">
+             <thead>
+                 <tr>
+                     <th>Flight Number</th>
+                     <th>Status</th>
+                     <th>Gate</th>
+                 </tr>
+             </thead>
+             <tbody id="flight-status-body">
+                 <!-- Data will be populated here by main.js -->
+             </tbody>
+         </table>
+     </div>
+ </body>
+ </html>
+ 
